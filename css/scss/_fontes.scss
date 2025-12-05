@@ -1,0 +1,15 @@
+@use "sass:math";
+
+@function rem($px) {
+	@return math.div($px, 16) * 1rem;
+}
+
+@mixin fonte($ft, $size: 16) {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	@if $ft == nav {
+		font-size: rem(28);
+	} @else if $ft == main {
+		font-size: rem($size);
+	}
+}

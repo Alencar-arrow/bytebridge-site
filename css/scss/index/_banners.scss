@@ -1,0 +1,23 @@
+@use "../colors" as c;
+@use "../fontes" as f;
+@use "../responsive" as r;
+
+.banners {
+	background: #fff;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.banner.first {
+	align-self: center;
+	max-width: 110ch;
+	h2 {
+		font-size: f.rem(76);
+		span {
+			color: c.$color-detail;
+			font-weight: 600;
+		}
+	}
+}

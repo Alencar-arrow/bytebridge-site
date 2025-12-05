@@ -1,0 +1,48 @@
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Debug logs
+*.log
+
+# Build directories
+dist/
+build/
+out/
+
+# SASS/SCSS cache files
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Optional: Ignore compiled CSS if you change your mind later
+# *.css

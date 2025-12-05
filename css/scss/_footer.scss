@@ -1,0 +1,109 @@
+@use "fontes" as f;
+@use "colors" as c;
+@use "responsive" as r;
+
+footer {
+	padding: 70px 0;
+	background: c.$color-secondary;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	h2 {
+		color: c.$color-principal;
+		text-align: center;
+		font-size: f.rem(76);
+		font-weight: 300;
+		max-width: 21ch;
+		margin-bottom: 70px;
+		span {
+			color: c.$color-detail;
+			font-weight: 500;
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			width: 95%;
+			height: 3px;
+			background: c.$color-principal;
+			top: 350px;
+			left: 32.5px;
+		}
+	}
+}
+
+.colums {
+	color: c.$color-principal;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+	position: relative;
+	&::after {
+		content: "";
+		position: absolute;
+		background: c.$color-principal;
+		width: calc(1440px / 2);
+		height: 3px;
+		right: -250px;
+		bottom: -20px;
+	}
+	.column {
+		font-size: f.rem(28);
+		font-weight: 300;
+		.column_title {
+			font-size: f.rem(32);
+			font-weight: 600;
+			margin-bottom: 20px;
+		}
+	}
+	.img {
+		display: flex;
+		align-items: center;
+		img {
+			width: 300px;
+		}
+	}
+}
+
+.contato,
+.empresa {
+	li {
+		position: relative;
+		a::before {
+			content: "";
+			position: absolute;
+			left: -30px;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 20px;
+			height: 20px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+a.telefone::before {
+	background-image: url(/img-contato-empresa/whats.svg);
+}
+
+a.tiktok::before {
+	background-image: url(/img-contato-empresa/tiktok.svg);
+}
+
+a.instagram::before {
+	background-image: url(/img-contato-empresa/instagram.svg);
+}
+
+a.facebook::before {
+	background-image: url(/img-contato-empresa/facebook.svg);
+}
+
+a.depoimento::before {
+	background-image: url(/img-contato-empresa/depoimento.svg);
+}
+
+a.email::before {
+	background-image: url(/img-contato-empresa/conosco.svg);
+}
