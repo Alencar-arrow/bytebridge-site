@@ -11,15 +11,15 @@
 
   <!-- Botão Principal -->
   <a href="https://alencar-arrow.github.io/bytebridge-site/" target="_blank">
-    <img src="https://img.shields.io/badge/ Visitar%20ByteBridge%20Ao%20Vivo-00CED1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visitar ByteBridge Ao Vivo" />
+    <img src="https://img.shields.io/badge/ Visitar%20ByteBridge%20Ao%20Vivo-FFA500?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visitar ByteBridge Ao Vivo" />
   </a>
 
   <br/><br/>
 
   <!-- Badges de Tecnologia e Estado com espaçamento -->
-  ![](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=flat-square)&nbsp;&nbsp;
-  ![](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)&nbsp;&nbsp;
-  ![](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)&nbsp;&nbsp;
+  ![](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=flat-square)&nbsp;
+  ![](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)&nbsp;
+  ![](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)&nbsp;
   ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </div>
