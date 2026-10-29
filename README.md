@@ -32,9 +32,9 @@ O **ByteBridge** é um site interativo desenvolvido como apresentação visual e
 ---
 
 ### 💻 Tecnologias Utilizadas
-- **HTML5** — Estruturação semântica das seções, cabeçalho e navegação.
-**SCSS (Sass)** — Pré-processador CSS avançado para estilização modular, uso de variáveis e organização em cascata.- 
-**JavaScript** — Manipulação do DOM para a criação e controle do carrossel interativo de slides/seções.
+- **HTML5** — Estruturação semântica das seções e navegação.
+- **SCSS (Sass)** — Pré-processador CSS avançado para estilização modular, uso de variáveis e organização em cascata.
+- **JavaScript** — Manipulação do DOM para o funcionamento fluido do carrossel interativo de slides.
 
 ---
 
