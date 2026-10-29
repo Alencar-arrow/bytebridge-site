@@ -11,7 +11,7 @@
 
   <!-- Botão Principal -->
   <a href="https://alencar-arrow.github.io/bytebridge-site/" target="_blank">
-    <img src="https://img.shields.io/badge/ Visitar%20ByteBridge%20Ao%20Vivo-FFA500?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visitar ByteBridge Ao Vivo" />
+    <img src="https://img.shields.io/badge/ Visitar%20ByteBridge%20Ao%20Vivo-FF7A00?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visitar ByteBridge Ao Vivo" />
   </a>
 
   <br/><br/>
